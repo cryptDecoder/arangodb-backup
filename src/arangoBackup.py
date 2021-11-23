@@ -35,7 +35,7 @@ class ArangoBackup(object):
             client = self.initConnect(host)
             self.log.info("[+] CONNECTING TO DATABASE")
             sys_db = client.db(
-                "_system",
+                "TUTuskat8eaccgwcoadzrblna",
                 username=username,
                 password=password
             )
